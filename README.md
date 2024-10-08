@@ -1,11 +1,13 @@
-# Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis
+<p align="center">
+    <img src="./asset/name_logo.jpg" width="100%" height="100%">
+</p>
+
+# The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio
 
 ![VideoQA](https://img.shields.io/badge/Task-VideoQA-red) 
+![AudioQA](https://img.shields.io/badge/Task-AudioQA-red) 
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
-![Video-MME](https://img.shields.io/badge/Dataset-Video--MME-blue)  
-![Gemini](https://img.shields.io/badge/Model-Gemini-green) 
-![GPT-4V](https://img.shields.io/badge/Model-GPT--4V-green) 
-![GPT-4o](https://img.shields.io/badge/Model-GPT--4o-green)
+![CMM](https://img.shields.io/badge/Dataset-CMM-blue)  
 
 <p align="center">
     <img src="./asset/name_logo.jpg" width="100%" height="100%">
