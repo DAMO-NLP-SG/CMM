@@ -95,7 +95,7 @@ This results in a total of **1,200 samples and 2,400 probing questions**.
 We benchmark LMMs using two core metrics, namely, Perception Accuracy (PA) and Hallucination Resistance (HR):
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/c9b4a76b-69f8-4745-96f9-f0b27591049e" width="60%" height="60%">
+    <img src="https://github.com/user-attachments/assets/c9b4a76b-69f8-4745-96f9-f0b27591049e" width="70%" height="70%">
 </p>
 
 PA measures the model's ability to accurately perceive present objects or events, while HR assesses its resistance to hallucinations by correctly identifying the absence of non-existent objects or events. Higher scores in both metrics indicate better perception and robustness against hallucinations.
