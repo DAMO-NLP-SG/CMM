@@ -112,49 +112,39 @@ The common prompt used in our evaluation follows this format:
 
 📍 **Evaluation**: 
 
-To extract the answer and calculate the scores, we add the model response to a JSON file. Here we provide an example template [output_test_template.json](./evaluation/output_test_template.json). Once you have prepared the model responses in this format, please refer to the evaluation script [eval_your_results.py](https://github.com/thanku-all/parse_answer/blob/main/eval_your_results.py), and you will get the accuracy scores across video_durations, video domains, video subcategories, and task types. 
-The evaluation does not introduce any third-party models, such as ChatGPT.
+To extract the answer and calculate the scores, we add the model response to a JSON file. Here we provide an example template [final_output.json](./evaluation/final_output.json). Once you have prepared the model responses in this format, please refer to the evaluation script [calculate_scores.py](./evaluation/calculate_scores.py), and you will get the PA and HR scores. 
 
 ```bash
-python eval_your_results.py \
-    --results_file $YOUR_RESULTS_FILE \
-    --video_duration_type $VIDEO_DURATION_TYPE \
-    --return_categories_accuracy \
-    --return_sub_categories_accuracy \
-    --return_task_types_accuracy
+python ./evaluation/calculate_scores.py
 ```
-Please ensure that the `results_file` follows the specified JSON format stated above, and `video_duration_type` is specified as either `short`, `medium`, or `long`. If you wish to assess results across various duration types, you can specify multiple types separated by commas or organize them in a list, for example: `short,medium,long` or `["short","medium","long"]`.
+Please ensure that the `results_file` follows the specified JSON format stated above.
 
 📍 **Leaderboard**: 
 
-If you want to add your model to our [leaderboard](https://video-mme.github.io/home_page.html#leaderboard), please send model responses to **bradyfu24@gmail.com**, as the format of [output_test_template.json](./evaluation/output_test_template.json).
+If you want to add your model to our [leaderboard](https://video-mme.github.io/home_page.html#leaderboard), please send model responses to **Lengsicong@gmail.com**, as the format of [final_output.json](./evaluation/final_output.json).
 
 
 ## 📈 Experimental Results
-- **Evaluation results of different MLLMs.**
+- **Evaluation results of different LMMs across language, visual, and audio.**
 
 <p align="center">
-    <img src="./asset/results_of_various_models.png" width="96%" height="50%">
+    <img src="https://github.com/user-attachments/assets/653ce9a6-217c-40c1-b3b1-9fa5b4207835" width="96%" height="50%">
 </p>
 
 
-- **Evaluation results of different MLLMs across different task types.**
+- **Visual-only benchmark subset results grouped by probing granularity.**
 
 <p align="center">
-    <img src="./asset/results_of_question_types_0616.png" width="50%" height="50%">
+    <img src="https://github.com/user-attachments/assets/dcd93f0b-61d4-4165-8e5b-e4568142ee2b" width="96%" height="50%">
 </p>
 
-- **Evaluation results of Gemini 1.5 Pro across different video duration types.**
+- **Effects of probing granularities and LLM decoder sizes.**
 
 <p align="center">
-    <img src="./asset/results_of_video_type.jpg" width="96%" height="96%">
+    <img src="https://github.com/user-attachments/assets/049bef1b-18f0-4087-9ca1-bd0373e6048e" width="96%" height="50%">
 </p>
 
-- **Evaluation results of Gemini 1.5 Pro across different video sub-types.**
 
-<p align="center">
-    <img src="./asset/results_of_video_sub_type.png" width="80%" height="80%">
-</p>
 
 ## 🔍 License
 ```
@@ -170,10 +160,10 @@ You must strictly comply with the above restrictions.
 If you find our work helpful for your research, please consider star the repo and citing our work.   
 
 ```bibtex
-@article{fu2024video,
-  title={Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis},
-  author={Fu, Chaoyou and Dai, Yuhan and Luo, Yondong and Li, Lei and Ren, Shuhuai and Zhang, Renrui and Wang, Zihan and Zhou, Chenyu and Shen, Yunhang and Zhang, Mengdan and others},
-  journal={arXiv preprint arXiv:2405.21075},
+@article{,
+  title={},
+  author={},
+  journal={},
   year={2024}
 }
 ```
