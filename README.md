@@ -168,6 +168,6 @@ If you find our work helpful for your research, please consider star the repo an
 }
 ```
 
-## 📜 Acknoledgements
+## 📜 Acknowledgements
 
 
