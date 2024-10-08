@@ -14,7 +14,7 @@
 ![CMM](https://img.shields.io/badge/Dataset-CMM-blue)  
 
 **CMM** is the first to investigate hallucinations across *Language*, *Visual*, and *Audio* systematically. It benchmarks various LMMs across visual, audio, and their joint context.
-If you find our work helpful, please consider giving us a star ⭐ on GitHub or citing our paper to support us. 🙏🙏
+If you find our work helpful, please consider giving us a star ⭐ on GitHub or citing our paper to support us. 🙏
 
 ---
 
