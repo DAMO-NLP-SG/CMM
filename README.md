@@ -121,7 +121,7 @@ Please ensure that the `results_file` follows the specified JSON format stated a
 
 📍 **Leaderboard**: 
 
-If you want to add your model to our [leaderboard](https://video-mme.github.io/home_page.html#leaderboard), please send model responses to **Lengsicong@gmail.com**, as the format of [final_output.json](./evaluation/final_output.json).
+If you want to add your model to our [leaderboard](), please send model responses to **Lengsicong@gmail.com**, as the format of [final_output.json](./evaluation/final_output.json).
 
 
 ## 📈 Experimental Results
