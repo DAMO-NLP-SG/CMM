@@ -6,7 +6,7 @@ if __name__ == '__main__':
     with open('./output.json', 'r') as f:
         lines = f.readlines()
 
-    ### Overall Accuracy, Perception Accuracy, and Hallucination Severity for the entire dataset
+    ### Overall Accuracy, Perception Accuracy, and Hallucination Resistance for the entire dataset
     total = 0
     correct = 0
     total_yes_in_answer = 0
@@ -34,16 +34,16 @@ if __name__ == '__main__':
             if 'no' in prediction[:5]:
                 correct_no += 1
 
-    # Calculate and print overall accuracy, perception accuracy, and hallucination severity for the entire dataset
+    # Calculate and print overall accuracy, perception accuracy, and Hallucination Resistance for the entire dataset
     overall_accuracy = correct / total if total > 0 else 0
     overall_perception_accuracy = correct_yes / total_yes_in_answer if total_yes_in_answer > 0 else 0
     overall_hallucination_severity = correct_no / total_no_in_answer if total_no_in_answer > 0 else 0
 
     print(f'Overall Accuracy (entire dataset): {overall_accuracy:.4f}')
     print(f'Overall Perception Accuracy (entire dataset): {overall_perception_accuracy:.4f}')
-    print(f'Overall Hallucination Severity (entire dataset): {overall_hallucination_severity:.4f}\n')
+    print(f'Overall Hallucination Resistance (entire dataset): {overall_hallucination_severity:.4f}\n')
 
-    ### Perception Accuracy, Hallucination Severity, and Accuracy for each sub_category
+    ### Perception Accuracy, Hallucination Resistance, and Accuracy for each sub_category
     sub_category_dict = {}
 
     # First loop to accumulate counts for each sub_category
@@ -53,7 +53,7 @@ if __name__ == '__main__':
         if sub_category not in sub_category_dict:
             sub_category_dict[sub_category] = {
                 'correct_yes': 0, 'total_yes_in_answer': 0,  # For perception accuracy
-                'correct_no': 0, 'total_no_in_answer': 0,    # For hallucination severity
+                'correct_no': 0, 'total_no_in_answer': 0,    # For Hallucination Resistance
                 'correct': 0, 'total': 0                    # For overall accuracy
             }
         
@@ -78,7 +78,7 @@ if __name__ == '__main__':
                 sub_category_dict[sub_category]['correct_no'] += 1
 
     # Print the combined result in a table format with alignment
-    print(f'{"sub_category":<35}{"perception accuracy":<20}{"hallucination severity":<25}{"accuracy":<10}')
+    print(f'{"sub_category":<35}{"perception accuracy":<20}{"Hallucination Resistance":<25}{"accuracy":<10}')
     for sub_category in sub_category_dict:
         correct_yes = sub_category_dict[sub_category]['correct_yes']
         total_yes_in_answer = sub_category_dict[sub_category]['total_yes_in_answer']
@@ -87,14 +87,14 @@ if __name__ == '__main__':
         correct = sub_category_dict[sub_category]['correct']
         total = sub_category_dict[sub_category]['total']
         
-        # Calculate perception accuracy, hallucination severity, and accuracy
+        # Calculate perception accuracy, Hallucination Resistance, and accuracy
         perception_accuracy = correct_yes / total_yes_in_answer if total_yes_in_answer > 0 else 0
         hallucination_severity = correct_no / total_no_in_answer if total_no_in_answer > 0 else 0
         accuracy = correct / total if total > 0 else 0
         
         print(f'{sub_category:<35}{perception_accuracy:<20.4f}{hallucination_severity:<25.4f}{accuracy:<10.4f}')
     
-    ### Perception Accuracy, Hallucination Severity, and Accuracy for object-level and event-level within each sub_category
+    ### Perception Accuracy, Hallucination Resistance, and Accuracy for object-level and event-level within each sub_category
     granularity_dict = {
         'object-level': {},
         'event-level': {}
@@ -112,7 +112,7 @@ if __name__ == '__main__':
         if sub_category not in granularity_dict[granularity]:
             granularity_dict[granularity][sub_category] = {
                 'correct_yes': 0, 'total_yes_in_answer': 0,  # For perception accuracy
-                'correct_no': 0, 'total_no_in_answer': 0,    # For hallucination severity
+                'correct_no': 0, 'total_no_in_answer': 0,    # For Hallucination Resistance
                 'correct': 0, 'total': 0                    # For overall accuracy
             }
         
@@ -137,7 +137,7 @@ if __name__ == '__main__':
                 granularity_dict[granularity][sub_category]['correct_no'] += 1
 
     # Print the combined result for both levels in a table format with alignment
-    print(f'\n{"Granularity":<15}{"sub_category":<35}{"perception accuracy":<20}{"hallucination severity":<25}{"accuracy":<10}')
+    print(f'\n{"Granularity":<15}{"sub_category":<35}{"perception accuracy":<20}{"Hallucination Resistance":<25}{"accuracy":<10}')
     for granularity in granularity_dict:
         print(f'{granularity.upper()} RESULTS:')
         for sub_category in granularity_dict[granularity]:
@@ -148,7 +148,7 @@ if __name__ == '__main__':
             correct = granularity_dict[granularity][sub_category]['correct']
             total = granularity_dict[granularity][sub_category]['total']
             
-            # Calculate perception accuracy, hallucination severity, and accuracy
+            # Calculate perception accuracy, Hallucination Resistance, and accuracy
             perception_accuracy = correct_yes / total_yes_in_answer if total_yes_in_answer > 0 else 0
             hallucination_severity = correct_no / total_no_in_answer if total_no_in_answer > 0 else 0
             accuracy = correct / total if total > 0 else 0
