@@ -1,7 +1,3 @@
-<p align="center">
-    <img src="./asset/name_logo.jpg" width="100%" height="100%">
-</p>
-
 # The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio
 
 ![VideoQA](https://img.shields.io/badge/Task-VideoQA-red) 
@@ -10,13 +6,12 @@
 ![CMM](https://img.shields.io/badge/Dataset-CMM-blue)  
 
 <p align="center">
-    <img src="./asset/name_logo.jpg" width="100%" height="100%">
+    <img src="./asset/cmm_logo.png" width="30%" height="30%">
 </p>
 
-<font size=7><div align='center' > [[🍎 Project Page](https://video-mme.github.io/)] [[📖 arXiv Paper](https://arxiv.org/pdf/2405.21075)] [[📊 Dataset](https://github.com/BradyFU/Video-MME?tab=readme-ov-file#-dataset)][[🏆 Leaderboard](https://video-mme.github.io/home_page.html#leaderboard)]  </div></font>
+<font size=7><div align='center' > [[🍎 Project Page]()] [[📖 arXiv Paper]()] [[📊 Dataset]()][[🏆 Leaderboard]()]  </div></font>
 
-Video-MME applies to both **image MLLMs**, i.e., generalizing to multiple images, and **video MLLMs**. 🌟
-
+**CMM** is the first to investigate hallucinations across *Language*, *Visual*, and *Audio* systematically. It benchmarks various LMMs across visual, audio, and their joint context.
 
 ---
 
