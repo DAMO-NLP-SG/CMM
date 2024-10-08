@@ -6,7 +6,8 @@
 ![CMM](https://img.shields.io/badge/Dataset-CMM-blue)  
 
 <p align="center">
-    <img src="./asset/cmm_logo.png" width="30%" height="30%">
+    <img src="./asset/cmm_logo.png" width="20%" height="20%">
+    <img src="./asset/cmm_wordart.png" width="60%" height="60%">
 </p>
 
 <font size=7><div align='center' > [[🍎 Project Page]()] [[📖 arXiv Paper]()] [[📊 Dataset]()][[🏆 Leaderboard]()]  </div></font>
