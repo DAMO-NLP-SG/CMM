@@ -17,18 +17,23 @@
 ---
 
 ## 🔥 News
-* **`2024.06.15`** 🌟 We have refreshed our evaluation: 1) replace broken and potentially broken video links, and re-annotated them; 2) GPT-4o now samples 384 frames (previously 10 from the website) at 512x512 resolution, boosting overall accuracy to 71.9%.
-* **`2024.06.03`** 🌟 We are very proud to launch Video-MME, the first-ever comprehensive evaluation benchmark of MLLMs in Video Analysis!
+* **`2024.10.04`** 🌟 We are very excited to launch **CMM**, the first-ever comprehensive hallucination evaluation benchmark of LMMs across language, visual, and audio!
 
 
 
-## 👀 Video-MME Overview
+## 👀 CMM Overview
 
-In the quest for artificial general intelligence, Multi-modal Large Language Models (MLLMs) have emerged as a focal point in recent advancements, but their potential in processing sequential visual data is still insufficiently explored. We introduce <strong>Video-MME</strong>, the first-ever full-spectrum, <strong>M</strong>ulti-<strong>M</strong>odal <strong>E</strong>valuation benchmark of MLLMs in <strong>Video</strong> analysis. It is designed to comprehensively assess the capabilities of MLLMs in processing video data, covering a wide range of visual domains, temporal durations, and data modalities. Video-MME comprises **900 videos** with a total of 254 hours, and **2,700 human-annotated question-answer pairs**. Our work distinguishes from existing benchmarks through four key features: 
-* *Duration in temporal dimension*. Encompassing both **short- (< 2min)**, **medium- (4min\~15min)**, and **long-term (30min\~60min)** videos, ranging from **11 seconds to 1 hour**, for robust contextual dynamics;
-* *Diversity in video types*. Spanning **6 primary visual domains**, i.e., Knowledge, Film & Television, Sports Competition, Life Record, and Multilingual, with **30 subfields** to ensure broad scenario generalizability;
-* *Breadth in data modalities*. Integrating multi-modal inputs besides video frames, including **subtitles and audios**, to assess the all-round capabilities of MLLMs;
-* *Quality in annotations*. **All data are newly collected and annotated by humans, not from any existing video dataset**, ensuring diversity and quality. 
+Recent advancements in large multimodal models (LMMs) have significantly enhanced performance across diverse tasks, with ongoing efforts to further integrate additional modalities such as video and audio. However, most existing LMMs remain vulnerable to hallucinations, the discrepancy between the factual multi-modal input and the generated textual output, which has limited their applicability in various real-world scenarios. This paper presents the first systematic investigation of hallucinations in LMMs involving the three most common modalities: language, visual, and audio. 
+Our work distinguishes from existing benchmarks through four key features: 
+* *Essential Multi-Modalities*: We analyze hallucinations and evaluate LMMs across the three fundamental modalities: Language, Visual, and Audio. 
+* *Systematic Hallucination Investigation*: Our study reveals two key contributors to hallucinations: overreliance on unimodal priors and spurious inter-modality correlations.
+* *Comprehensive Diagnosis*: CMM defines hallucinations with nuanced subcategories and granularities, enabling comprehensive diagnosis of LMM vulnerabilities across various modalities.
+* *Quality in Annotations*: **All data are newly annotated by humans, not from any existing video dataset**, ensuring diversity and quality. 
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/4c3ed521-6e21-430a-a76e-7b3e05cde0b8" width="100%" height="100%">
+</p>
+![image](https://github.com/user-attachments/assets/4c3ed521-6e21-430a-a76e-7b3e05cde0b8)
 
 
 <p align="center">
