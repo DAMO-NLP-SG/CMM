@@ -19,7 +19,7 @@
 ## 🔥 News
 * **`2024.10.04`** 🌟 We are very excited to launch **CMM**, the first-ever comprehensive hallucination evaluation benchmark of LMMs across language, visual, and audio!
 
-<details open><summary>💡 Some other multimodal-LLM projects from our team may interest you ✨. </summary><p>
+<details open><summary>💡 Some other LMM projects from our team may interest you ✨. </summary><p>
 <!--  may -->
 
 > [**Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding**](https://github.com/DAMO-NLP-SG/Video-LLaMA) <br>
