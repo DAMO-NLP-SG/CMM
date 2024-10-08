@@ -5,6 +5,7 @@
 
 <font size=7><div align='center' > [[🍎 Project Page]()] [[📖 arXiv Paper]()] [[📊 Dataset]()][[🏆 Leaderboard]()]  </div></font>
 
+
 # The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio
 
 ![VideoQA](https://img.shields.io/badge/Task-VideoQA-red) 
@@ -13,6 +14,7 @@
 ![CMM](https://img.shields.io/badge/Dataset-CMM-blue)  
 
 **CMM** is the first to investigate hallucinations across *Language*, *Visual*, and *Audio* systematically. It benchmarks various LMMs across visual, audio, and their joint context.
+If you find our work helpful, please consider giving us a star ⭐ on GitHub or citing our paper to support us. 🙏🙏
 
 ---
 
@@ -157,7 +159,7 @@ You must strictly comply with the above restrictions.
 
 ## :black_nib: Citation
 
-If you find our work helpful for your research, please consider star the repo and citing our work.   
+If you find our work helpful for your research, please consider starring the repo and citing our work.   
 
 ```bibtex
 @article{,
