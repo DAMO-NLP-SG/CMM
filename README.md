@@ -1,16 +1,16 @@
+<p align="center">
+    <img src="./asset/cmm_logo.png" width="25%" height="25%">
+    <img src="./asset/cmm_word.png" width="55%" height="55%">
+</p>
+
+<font size=7><div align='center' > [[🍎 Project Page]()] [[📖 arXiv Paper]()] [[📊 Dataset]()][[🏆 Leaderboard]()]  </div></font>
+
 # The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio
 
 ![VideoQA](https://img.shields.io/badge/Task-VideoQA-red) 
 ![AudioQA](https://img.shields.io/badge/Task-AudioQA-red) 
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
 ![CMM](https://img.shields.io/badge/Dataset-CMM-blue)  
-
-<p align="center">
-    <img src="./asset/cmm_logo.png" width="20%" height="20%">
-    <img src="./asset/cmm_wordart.png" width="60%" height="60%">
-</p>
-
-<font size=7><div align='center' > [[🍎 Project Page]()] [[📖 arXiv Paper]()] [[📊 Dataset]()][[🏆 Leaderboard]()]  </div></font>
 
 **CMM** is the first to investigate hallucinations across *Language*, *Visual*, and *Audio* systematically. It benchmarks various LMMs across visual, audio, and their joint context.
 
