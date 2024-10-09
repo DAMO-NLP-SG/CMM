@@ -59,7 +59,7 @@ Our work distinguishes from existing benchmarks through four key features:
 ## 🎓 Hallucination Investigations
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/a085dc03-9455-4d6f-80c9-a4633e1c39df" width="100%" height="100%">
+    <img src="./asset/hallu_inve1.png" width="100%" height="100%">
 </p>
 
 **Overreliance on unimodal priors** is a key factor contributing to hallucinations in LMMs. 
@@ -68,7 +68,7 @@ In such cases, the model defaults to strong unimodal priors learned during train
 Following the general issue of overreliance on unimodal priors, we categorize this into three distinct types: **Language Dominance**, **Visual Dominance**, and **Audio Dominance**. Each form of dominance presents unique challenges for LMM performance and contributes to hallucinations in different ways.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/d6d2f20f-34f0-4208-8477-f36697468059" width="100%" height="100%">
+    <img src="./asset/hallu_inve2.png" width="100%" height="100%">
 </p>
 
 Reducing information from the dominant modality forces the model to integrate cues from other modalities more effectively, thereby decreasing the likelihood of hallucinations. This validates the challenges posed by uni-modality overreliance in multimodal integration.
@@ -80,7 +80,7 @@ Two common sources of spurious correlations are:
 We categorize them into three subtypes: **Visual-Language**, **Audio-Language**, **Visual-Audio-Language**.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/c724ead2-66f6-4aa3-925c-6d6a680e06e5" width="100%" height="100%">
+    <img src="./asset/hallu_inve3.png" width="100%" height="100%">
 </p>
 
 A consistent trend emerges: hallucinatory responses are associated with higher CoScores, indicating that higher co-occurrence frequencies increase the likelihood of hallucinations. This confirms the impact of spurious inter-modality correlations learned during pretraining.
@@ -97,7 +97,7 @@ This results in a total of **1,200 samples and 2,400 probing questions**.
 We benchmark LMMs using two core metrics, namely, Perception Accuracy (PA) and Hallucination Resistance (HR):
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/c9b4a76b-69f8-4745-96f9-f0b27591049e" width="70%" height="70%">
+    <img src="./asset/pahr.png" width="70%" height="70%">
 </p>
 
 PA measures the model's ability to accurately perceive present objects or events, while HR assesses its resistance to hallucinations by correctly identifying the absence of non-existent objects or events. Higher scores in both metrics indicate better perception and robustness against hallucinations.
@@ -130,20 +130,20 @@ If you want to add your model to our [leaderboard](), please send model response
 - **Evaluation results of different LMMs across language, visual, and audio.**
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/653ce9a6-217c-40c1-b3b1-9fa5b4207835" width="96%" height="50%">
+    <img src="./asset/exp1.png" width="96%" height="50%">
 </p>
 
 
 - **Visual-only benchmark subset results grouped by probing granularity.**
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/dcd93f0b-61d4-4165-8e5b-e4568142ee2b" width="96%" height="50%">
+    <img src="./asset/exp2.png" width="96%" height="50%">
 </p>
 
 - **Effects of probing granularities and LLM decoder sizes.**
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/049bef1b-18f0-4087-9ca1-bd0373e6048e" width="96%" height="50%">
+    <img src="./asset/exp3.png" width="96%" height="50%">
 </p>
 
 
