@@ -48,12 +48,12 @@ Our work distinguishes from existing benchmarks through four key features:
 * *Quality in Annotations*: **All data are newly annotated by humans, not from any existing video dataset**, ensuring diversity and quality. 
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/4c3ed521-6e21-430a-a76e-7b3e05cde0b8" width="100%" height="100%">
+    <img src="./asset/data_comp1.png" width="90%" height="100%">
 </p>
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/b600b22a-0f7e-45ae-9e6d-f6ded2803681" width="48%" height="100%">
-    <img src="https://github.com/user-attachments/assets/08bfc09f-6a31-43b6-bcce-e5bd9d984c1c" width="48%" height="100%">
+    <img src="./asset/data_comp2.png" width="48%" height="100%">
+    <img src="./asset/data_comp3.png" width="48%" height="100%">
 </p>
 
 ## 🎓 Hallucination Investigations
