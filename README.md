@@ -3,7 +3,7 @@
     <img src="./asset/cmm_word.png" width="55%" height="55%">
 </p>
 
-<font size=7><div align='center' > [[🍎 Project Page]()] [[📖 arXiv Paper]()] [[📊 Dataset]()][[🏆 Leaderboard]()]  </div></font>
+<font size=7><div align='center' > [[🍎 Project Page]()] [[📖 arXiv Paper]()] [[📊 Dataset](https://huggingface.co/datasets/DAMO-NLP-SG/CMM)][[🏆 Leaderboard]()]  </div></font>
 
 
 # The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio
