@@ -171,6 +171,5 @@ If you find our work helpful for your research, please consider starring the rep
 }
 ```
 
-## 📜 Acknowledgements
 
 
