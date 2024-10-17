@@ -162,11 +162,12 @@ You must strictly comply with the above restrictions.
 If you find our work helpful for your research, please consider starring the repo and citing our work.   
 
 ```bibtex
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={2024}
+@article{leng2024curse,
+  title={The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio},
+  author={Sicong Leng and Yun Xing and Zesen Cheng and Yang Zhou and Hang Zhang and Xin Li and Deli Zhao and Shijian Lu and Chunyan Miao and Lidong Bing},
+  journal={arXiv},
+  year={2024},
+  url={https://arxiv.org/abs/2410.12787}
 }
 ```
 
