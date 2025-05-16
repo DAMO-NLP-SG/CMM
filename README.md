@@ -134,13 +134,13 @@ If you want to add your model to our [leaderboard](https://cmm-damovl.site/#lead
 </p>
 
 
-- **Visual-only benchmark subset results grouped by probing granularity.**
+- **Evaluation results of video-only and audio-only LMMs.**
 
 <p align="center">
     <img src="./asset/exp2.png" width="96%" height="50%">
 </p>
 
-- **Effects of probing granularities and LLM decoder sizes.**
+- **Effects of probing modalities and LLM sizes.**
 
 <p align="center">
     <img src="./asset/exp3.png" width="96%" height="50%">
