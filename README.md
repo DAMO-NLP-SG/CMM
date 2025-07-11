@@ -1,6 +1,6 @@
 <p align="center">
-    <img src="./asset/cmm_logo.png" width="25%" height="25%">
-    <img src="./asset/cmm_word.png" width="55%" height="55%">
+    <img src="./asset/cmm_logo.png" width="16%" height="70%">
+    <img src="./asset/cmm_word.png" width="35%" height="70%">
 </p>
 
 <font size=7><div align='center' > [[🍎 Project Page](https://cmm-damovl.site)] [[📖 arXiv Paper](https://arxiv.org/abs/2410.12787)] [[📊 Dataset](https://huggingface.co/datasets/DAMO-NLP-SG/CMM)][[🏆 Leaderboard](http://cmm-damovl.site/#leaderboard)]  </div></font>
